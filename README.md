@@ -19,3 +19,11 @@ Test Case 2: Multi-step Workflow:
 Scenario: Simulate a complete user workflow such as registration, login, and performing an action (e.g., placing an order).
 
 Expected Result: Each step should complete successfully, with data flowing correctly through the API.
+
+Test Case 3: Delete Resource
+
+Scenario: Send a DELETE request to remove a specific resource.
+
+Expected Result: Receive a 204 No Content status indicating successful deletion.
+python
+
