@@ -1,0 +1,10 @@
+// Automating API Testing with Python //
+
+
+import requests
+
+response = requests.get("https://api.example.com/products")
+assert response.status_code == 200
+assert "productName" in response.json()[0]
+
+
