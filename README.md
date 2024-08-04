@@ -7,3 +7,8 @@ API Testing for RESTful Services:
 Example 1:
    GET Request: https://api.example.com/products
    Expected Response: 200 OK with a list of products.
+
+
+Run the Script: Execute your script to automate API testing. 
+
+You can expand the script to cover various API endpoints and edge cases and also can create more test cases.
