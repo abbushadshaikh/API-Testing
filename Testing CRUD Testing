@@ -1,0 +1,18 @@
+def test_create_resource():
+    response = requests.post("https://api.example.com/users", json={"name": "John Doe", "email": "john@example.com"})
+    assert response.status_code == 201
+    assert response.json()["name"] == "John Doe"
+
+def test_read_resource():
+    response = requests.get("https://api.example.com/users/1")
+    assert response.status_code == 200
+    assert response.json()["id"] == 1
+
+def test_update_resource():
+    response = requests.put("https://api.example.com/users/1", json={"name": "Jane Doe"})
+    assert response.status_code == 200
+    assert response.json()["name"] == "Jane Doe"
+
+def test_delete_resource():
+    response = requests.delete("https://api.example.com/users/1")
+    assert response.status_code == 204
