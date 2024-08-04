@@ -12,3 +12,10 @@ Example 1:
 Run the Script: Execute your script to automate API testing. 
 
 You can expand the script to cover various API endpoints and edge cases and also can create more test cases.
+
+
+Test Case 2: Multi-step Workflow: 
+
+Scenario: Simulate a complete user workflow such as registration, login, and performing an action (e.g., placing an order).
+
+Expected Result: Each step should complete successfully, with data flowing correctly through the API.
