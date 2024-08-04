@@ -25,5 +25,3 @@ Test Case 3: Delete Resource
 Scenario: Send a DELETE request to remove a specific resource.
 
 Expected Result: Receive a 204 No Content status indicating successful deletion.
-python
-
