@@ -3,7 +3,7 @@
 
 import requests
 
-response = requests.get("https://api.example.com/products")
+response = requests.get("http://dummy.restapiexample.com/")
 assert response.status_code == 200
 assert "productName" in response.json()[0]
 
